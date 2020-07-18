@@ -9,7 +9,7 @@
 
 body{
     margin: auto;
-     border: 2px solid #ff0000;
+     /* border: 2px solid #ff0000; */
      background-color: #c0c0c0;
      max-width: 1000px;
      font-family: 'Roboto', sans-serif;
@@ -31,9 +31,9 @@ body{
     max-width: 500px;
     padding:30px 20px;
 }
-h3{
+/* h3{
   text-transform: uppercase;
-}
+} */
 u{
      color:rgb(89, 16, 224);
      font-weight: bolder;
@@ -58,23 +58,24 @@ u{
 /* ********************Begining of Secret Identity styling ****************** */
 p{
     text-align: justify;
+   padding:15px;
      /* margin-left: 20px; */
 }
 #identity img{
     float: left;
-    /* margin-right: 20px; */
-    width:150px;
+    margin-left: 20px;
+    margin-right:10px ;
+    /* width:150px; */
     
 }
-/* ********************Ending of Secret Identity styling ****************** */
-
-#movies{
-    border:3px solid;
+/* ****************starting of movies on Batmant ****************** */
+h1{
+       margin-left:40px;
 }
 .MoviesName{
    float: left;
    background-color: #ffff;
-   border:1px solid #a4a4a4;
+   border:2px solid ;
    text-align: center;
    color:#666;
    padding:10px;
@@ -94,21 +95,54 @@ p{
 }
 
 /* *********************** Starting to styling a table of id "villain" ********************/
-  
+h2{
+    text-align: left;
+}
+.heading{
+  column-span: 3;
+}  
+
 table{
     margin-top:30px;
-    border:2px solid;
+    /* border:2px solid; */
       margin: auto;
       border-collapse: collapse;
 }
 th{
     background-color: darkgray;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 
 tr, td{
-    border:1px solid;
+    /* border:1px solid; */
     padding: 9px;
     text-align: center;
     
+}
+
+/* *********************Creating a Navigation Bar **************************************/
+#navbar{
+    background-color: #fff;
+    /* position: static;; */
+    /* top:0;/ */
+}
+.float_content_right{
+    float:right;
+}
+.float_content_right a{
+    text-decoration: none;
+    padding: 15px;
+}
+#navbar a{
+    float: left;
+    background-color: #fff;
+}
+#navbar li{
+list-style-type: none;
+display: inline-block;
+}
+
+.float_content_right a:hover{
+    background-color: #f08080 !important;
+    transform: translateX(2px);
 }
