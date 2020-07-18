@@ -9,6 +9,23 @@
 </head>
 
 <body>
+    <!-- ******************creating a Navigation Bar  *******************-->
+    <header>
+    <div id="navbar">     
+                  <a href="#top"><img src="img\bat_logo.PNG"></a>
+                  <nav >
+                      
+                      <li class="float_content_right"><a href="#movies">Movies</a></li>
+                      <li class="float_content_right"><a href="#identity">Secret Identity</a></li>
+                      <li class="float_content_right"><a href="#Batman Villains">Batman Villains</a></li>
+                      <li class="float_content_right"><a href="#container">Abilities & Partnerships</a></li>
+                
+                    </nav>
+                </div> 
+                <div class="clear"></div>
+              </header>           
+
+<!--       *********************End of Navigation Bar ********************* -->
     <div id="bigContainer">
         <div id="background_img">
             <center>
@@ -19,15 +36,15 @@
             </center>
         </div>
 
-        <p><strong>Batman</strong> is a fictional comic character created by artist <u>Bob Kane</u>
-            and writer <u>Bill Finger</u>
+        <p style="text-align: center;"><strong>Batman</strong> is a fictional comic character created by artist <u> <a href="https://en.wikipedia.org/wiki/Bob_Kane" target="_blank">Bob Kane</a></u>
+            and writer <u><a href="https://en.wikipedia.org/wiki/Bill_Finger" target="_blank">Bill Finger</a></u>
             Batman first appeared in DC comics in the year 1939 and soon became popular</p>
 
         <div id="container">
 
             <div class="box">
                 <ul>
-                    <h3>Abilities</h3>
+                    <h1>Abilities</h1>
                     <li>Genius-level intellect</li>
                     <li>Peak human physical and mental conditioning</li>
                     <li>Expert martial artist and hand-to-hand combatant</li>
@@ -37,7 +54,7 @@
             </div>
             <div class="box">
                 <ol>
-                    <h3>Partnerships</h3>
+                    <h1>Partnerships</h1>
                     <li>Robin</li>
                     <li>Batgirl</li>
                     <li>James 'Jim' Gordon</li>
@@ -51,13 +68,16 @@
             <div class="clear"></div>
         </div>
 
-        <!-- Villen and their Specialization of Batman -->
-                
+        <!-- *****************Villen and their Specialization of Batman ***************-->
+        <div id="Batman Villains">        
         <table>
       <tbody>
           <tr>
-              
-            <tr class="heading">
+              <td colspan="3" class="heading">
+                  <h1>Batman Villains</h1></td>
+          </tr>
+
+            <tr>
                 <th>Name</th>
                 <th>First <br>Appearance</th>
                 <th>Abilities</th>
@@ -104,10 +124,12 @@
         </tbody>
           
     </table>
-        <h1>Secret Identity: Bruce Wayne</h1>
-
+        </div>
+        
         <!-- Begining of Secret Identity container-->
+        
         <div id="identity">
+            <h1>Secret Identity: Bruce Wayne</h1>
             <div><img src="img\wayne.PNG" alt="Batmanimages"></div>
             <div><p> Batman's secret identity is Bruce Wayne, a wealthy American industrialist who resides just outside of
                 Gotham City.
@@ -127,6 +149,7 @@
         <!-- Ending of Secret Identity container -->
 
        
+        <h1>Movies</h1>
          <div id="movies">
                 <div class="MoviesName"><img src="img/batman_begins.jpg"> 
                     <h3 class="centeringText">Batman Begins<br>(2005)</h3>
